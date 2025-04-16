@@ -49,12 +49,22 @@
 	<h1><center>Seguidor? Okay, se é assim que você se sente <br>nos siga de um distância segura,
 		 mas espero que um dia você possa andar ao nosso lado.</center></h1>
 		 <h2 class="center-heading">Não sabe como chegou aqui? Tudo bem, eu também não sei,<br> inscreva-se para receber infalivelmente por email atualizações de como vamos sair dessa.</h2> 
-	<div id="form-container"><form method="POST" data-netlify="true">
-		<label>Your Name: <input type="text" name="name" /></label>
-		<label>Your Email: <input type="email" name="email" /></label>
-		<label>Message: <textarea name="message"></textarea></label>
-		<button type="submit">Send</button>
-	  </form></div><br>
+	<div id="form-container">
+        <form action="https://formspree.io/f/xanezoyr"
+        method="POST"
+>
+<label>
+  Your email:
+  <input type="email" name="email">
+</label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form>
+    </div><br>
     <div id="map" style="width: 600px; height: 400px;"></div>    
     <script src="script.js"></script>
    
